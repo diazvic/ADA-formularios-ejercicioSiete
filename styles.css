@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: Arial,sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCF3CF;
+}
+main{
+    width: 600px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+.contenedor{
+    width: 500px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #EBEDEF;
+    border-radius: 5px;
+    background-color: #FDFEFE;
+}
+.box-uno{
+    width: 500px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color: #273746;
+    font-size: 25px;
+}
+.parrafo{
+    margin: 0 20px;
+    color: #AAB7B8;
+}
+.box-dos{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.email, .subject, .message{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #CCD1D1;
+    border-radius: 3px;
+}
+.rellenar{
+    width: 300px;
+    height: 40px;
+    border: 2px solid #F9E79F;
+    border-radius: 3px;
+}
+.box-tres{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.box-cuatro{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.box-cinco{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.box-seis{
+    width: 500px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+.boton{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #A2D9CE;
+}
